@@ -1,0 +1,12 @@
+small = int(input("Small treats recived "))
+medium = int(input("Medium treats recived "))
+large = int(input("Large treats recived "))
+mood = 0
+
+mood = (small * 1) + (medium * 2) + (large * 3)
+
+if mood >= 10:
+    print("Happy")
+else:
+    print("Sad")
+
